@@ -1,0 +1,25 @@
+# System files
+.DS_Store
+
+# Build artifacts
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Dependencies
+venv/
+*.egg-info/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+
+# Log files
+*.log
+
+# Private data
+*.env
+
+test_images/
