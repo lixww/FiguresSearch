@@ -1,3 +1,6 @@
+# Try facebook/maskformer-swin-base-coco on segmenting persons in an image, 
+# extract key features from segmentations, compare them across images containing persons.
+
 # MaskFormer, swin backbone, base-sized version, COCO panoptic segmentation
 #%%
 import torch

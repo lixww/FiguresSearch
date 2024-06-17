@@ -1,3 +1,6 @@
+# Try google/vit-base-patch16-224-in21k on extracting key features of input images, 
+# and compare their features similarity measured by cosine similarity.
+
 # ViT model, pre-trained, 224x224 patch size, ImageNet-21k.
 # %%
 from transformers import ViTImageProcessor, ViTModel
@@ -36,6 +39,5 @@ pooler_outputs = outputs.pooler_output
 pooler_outputs1 = outputs1.pooler_output
 similarity_score = cosine_similarity(pooler_outputs, pooler_outputs1)
 print(similarity_score)
-# %%
-print(outputs.pooler_output.shape)
+
 # %%
