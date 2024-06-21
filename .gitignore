@@ -24,5 +24,6 @@ venv/
 
 test_images/
 test_path/
+test_models/
 
 .ipynb_checkpoints/
